@@ -35,8 +35,10 @@ public class Game extends JPanel
 		{
 			for (int j = 0; j < 39; j++) 
 			{
+				Snek s = new Snek(1, 20, 20);
 				g.setColor(well[i][j]);
 				g.fillRect(26*i, 26*j, 25, 25);
+				s.paint();
 			}
 		}
 		

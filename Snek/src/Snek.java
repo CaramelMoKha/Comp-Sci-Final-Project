@@ -34,7 +34,7 @@ public class Snek extends JPanel
 	
 	public void move(int x, int y)
 	{
-		snekX += x;
-		snekY += y;
+		snekX = x;
+		snekY = y;
 	}
 }

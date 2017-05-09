@@ -12,9 +12,7 @@ public class PlaySnek
 		f.setVisible(true);
 		
 		final Game game = new Game();
-		Snek s = new Snek(1, 20, 20);
 		game.screen();
-		s.paint();
 		f.add(game);
 	}
 }
