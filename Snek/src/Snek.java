@@ -28,8 +28,7 @@ public class Snek extends JPanel
 			}
 		}
 	}
-
-	@Override 
+	
 	public void paintComponent(Graphics g)
 	{
 		// Paint the well
