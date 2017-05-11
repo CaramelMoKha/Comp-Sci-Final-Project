@@ -6,21 +6,19 @@ import javax.swing.JPanel;
 
 public class Snek extends JPanel
 {
-	private int snek;
+	private static final long serialVersionUID = 1L;
+	
+	Game g;
 	private int snekLength;
 	private int snekX;
 	private int snekY;
 	
-	public Snek(int length, int x, int y)
+	public Snek(int length, int x, int y, Game g)
 	{
 		snekLength = length;
 		snekX = x;
 		snekY = y;
-	}
-	
-	public void paint()
-	{
-		repaint();
+		this.g = g;
 	}
 	
 	public void paintComponent(Graphics g)
@@ -36,5 +34,15 @@ public class Snek extends JPanel
 	{
 		snekX = x;
 		snekY = y;
+	}
+	
+	public int getY()
+	{
+		return snekY;
+	}
+	
+	public int getX()
+	{
+		return snekX;
 	}
 }
