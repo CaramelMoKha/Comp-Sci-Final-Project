@@ -21,6 +21,11 @@ public class Snek extends JPanel
 		this.g = g;
 	}
 	
+	public void addSnake()
+	{
+		g.getScreen()[snekX][snekY] = //put snake on the screen
+	}
+	
 	public void paintComponent(Graphics g)
 	{
 		super.paintComponent(g);

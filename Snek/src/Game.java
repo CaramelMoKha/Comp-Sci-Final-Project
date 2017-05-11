@@ -10,7 +10,6 @@ public class Game extends JPanel
 	
 	private long score;
 	private Color[][] screen;
-	private boolean[][] snek;
 	
 	// Creates a border around the screen
 	public void screen() 
