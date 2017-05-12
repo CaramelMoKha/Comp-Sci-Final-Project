@@ -13,6 +13,7 @@ public class PlaySnek
 		
 		final Game game = new Game();
 		game.screen();
+		Snek s = new Snek(1, 20, 20, game);
 		f.add(game);
 	}
 }

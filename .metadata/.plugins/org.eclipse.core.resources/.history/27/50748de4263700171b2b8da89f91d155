@@ -13,12 +13,12 @@ public class Snek
 		snekY = y;
 	}
 	
-	public int getY()
+	public int getHeadY()
 	{
 		return snekY;
 	}
 	
-	public int getX()
+	public int getHeadX()
 	{
 		return snekX;
 	}

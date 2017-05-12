@@ -1,0 +1,68 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Point;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Snek
+{
+	private static final long serialVersionUID = 1L;
+	
+	private int snekLength;
+	private int snekHeadX;
+	private int snekHeadY;
+	private int snekTailY;
+	private int snekTailX;
+	
+	public Snek(int length, int x, int y, Game g)
+	{
+		snekLength = length;
+		snekHeadX = x;
+		snekHeadY = y;
+	}
+	
+	public int getHeadY()
+	{
+		return snekHeadY;
+	}
+	
+	public int getHeadX()
+	{
+		return snekHeadX;
+	}
+	
+	public int getTailX()
+	{
+		return snekTailX;
+	}
+	
+	public int getTailY()
+	{
+		return snekTailY;
+	}
+	
+	public void moveUp()
+	{
+		this.snekHeadY ++;
+	}
+	
+	public void moveDown()
+	{
+		this.snekHeadY --;
+	}
+	
+	public void moveLeft()
+	{
+		this.snekHeadX --;
+	}
+	
+	public void moveRight()
+	{
+		this.snekHeadX ++;
+	}
+	
+	public void addBlock()
+	{
+		snekLength ++;
+	}
+}

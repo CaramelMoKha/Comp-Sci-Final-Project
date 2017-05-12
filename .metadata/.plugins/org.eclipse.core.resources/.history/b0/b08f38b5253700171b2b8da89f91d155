@@ -1,10 +1,10 @@
 import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+import java.awt.Point;
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class Game extends JPanel implements KeyListener
+public class Game extends JPanel
 {
 	private static final long serialVersionUID = 1L;
 	
@@ -28,38 +28,6 @@ public class Game extends JPanel implements KeyListener
 		}
 	}
 	
-	public void keyPressed(KeyEvent e)
-	{
-		snek = new Snek(20, 20);
-		screen[snek.getX()][snek.getY()] = Color.BLUE;
-		
-		int key = e.getKeyCode();
-		
-		if(key == KeyEvent.VK_RIGHT)
-		{
-			snek.moveRight();
-			screen[snek.getX()][snek.getY()] = Color.BLUE;
-		}
-		
-		if(key == KeyEvent.VK_LEFT)
-		{
-			snek.moveLeft();
-			screen[snek.getX()][snek.getY()] = Color.BLUE;
-		}
-		
-		if(key == KeyEvent.VK_UP)
-		{
-			snek.moveUp();
-			screen[snek.getX()][snek.getY()] = Color.BLUE;
-		}
-		
-		if(key == KeyEvent.VK_DOWN)
-		{
-			snek.moveDown();
-			screen[snek.getX()][snek.getY()] = Color.BLUE;
-		}
-	}
-	
 	public void paintComponent(Graphics g)
 	{
 		// Paint the screen
@@ -77,7 +45,4 @@ public class Game extends JPanel implements KeyListener
 		g.setColor(Color.WHITE);
 		g.drawString("" + score, 30, 25);
 	}
-
-	public void keyReleased(KeyEvent e){}
-	public void keyTyped(KeyEvent e){}
 }
