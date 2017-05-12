@@ -10,7 +10,10 @@ public class Game extends JPanel implements KeyListener
 	
 	private long score;
 	private Color[][] screen;
+<<<<<<< HEAD
 	private Snek snek;
+=======
+>>>>>>> origin/master
 	
 	// Creates a border around the screen
 	public void screen() 

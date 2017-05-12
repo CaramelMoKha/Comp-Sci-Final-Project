@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Fri May 12 11:27:02 EDT 2017
+=======
+#Thu May 11 14:20:04 EDT 2017
+>>>>>>> origin/master
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
 content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.spellingProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
