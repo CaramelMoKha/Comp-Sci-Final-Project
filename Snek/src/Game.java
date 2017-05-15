@@ -12,11 +12,10 @@ public class Game extends JPanel
 	
 	private long score;
 	private static Color[][] screen;
-	private static Snek snek;
+	private static Snek snek = new Snek(20, 20);
 	
 	public Game()
 	{
-		snek = new Snek(20, 20);
 		this.setFocusable(true);
 		this.requestFocusInWindow();
 	}
@@ -63,9 +62,8 @@ public class Game extends JPanel
 		f.setSize(40*26+10, 26*39+25);
 		f.setVisible(true);
 		
-		Game game = new Game();
+		final Game game = new Game();
 		game.screen();
-		f.add(game);
 		
 		f.addKeyListener(new KeyListener()
 		{
@@ -74,14 +72,14 @@ public class Game extends JPanel
 			public void keyPressed(KeyEvent e)
 			{
 				int key = e.getKeyCode();
-				System.out.println(key);
 				
 				if(key == KeyEvent.VK_RIGHT)
 				{
 					screen[snek.getX()][snek.getY()] = Color.BLACK;
 					snek.moveRight();
 					screen[snek.getX()][snek.getY()] = Color.BLUE;
-					System.out.println("vk right");
+					game.repaint();
+					game.screen();
 				}
 				
 				if(key == KeyEvent.VK_LEFT)
@@ -89,22 +87,29 @@ public class Game extends JPanel
 					screen[snek.getX()][snek.getY()] = Color.BLACK;
 					snek.moveLeft();
 					screen[snek.getX()][snek.getY()] = Color.BLUE;
+					game.repaint();
+					game.screen();
 				}
 				
 				if(key == KeyEvent.VK_UP)
 				{
 					screen[snek.getX()][snek.getY()] = Color.BLACK;
-					snek.moveUp();
+					snek.moveDown();
 					screen[snek.getX()][snek.getY()] = Color.BLUE;
+					game.repaint();
+					game.screen();
 				}
 				
 				if(key == KeyEvent.VK_DOWN)
 				{
 					screen[snek.getX()][snek.getY()] = Color.BLACK;
-					snek.moveDown();
+					snek.moveUp();
 					screen[snek.getX()][snek.getY()] = Color.BLUE;
+					game.repaint();
+					game.screen();
 				}
 			}
-		}
+		});
+		f.add(game);
 	}
 }
