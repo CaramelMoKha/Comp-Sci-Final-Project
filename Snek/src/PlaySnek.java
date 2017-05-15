@@ -1,3 +1,4 @@
+
 import javax.swing.JFrame;
 
 public class PlaySnek
@@ -11,7 +12,7 @@ public class PlaySnek
 		f.setSize(40*26+10, 26*39+25);
 		f.setVisible(true);
 		
-		final Game game = new Game();
+		Game game = new Game();
 		game.screen();
 		f.add(game);
 	}

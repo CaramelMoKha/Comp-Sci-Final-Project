@@ -1,0 +1,21 @@
+import java.awt.event.KeyListener;
+
+import javax.swing.JFrame;
+
+public class PlaySnek implements KeyListener
+{
+	private static final long serialVersionUID = 1L;
+
+	public static void main(String[] args) 
+	{
+		JFrame f = new JFrame("Snek");
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		f.setSize(40*26+10, 26*39+25);
+		f.setVisible(true);
+		
+		Game game = new Game();
+		game.setKeyListener(this);
+		game.screen();
+		f.add(game);
+	}
+}

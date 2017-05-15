@@ -13,16 +13,7 @@ public class Snek
 		snekY = y;
 	}
 	
-<<<<<<< HEAD
 	public int getY()
-=======
-	public void addSnake()
-	{
-		g.getScreen()[snekX][snekY] = //put snake on the screen
-	}
-	
-	public void paintComponent(Graphics g)
->>>>>>> origin/master
 	{
 		return snekY;
 	}

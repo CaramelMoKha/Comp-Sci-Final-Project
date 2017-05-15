@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="13" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="40" y="-19">
-<fastViewData fastViewLocation="1024"/>
+<window height="860" width="800" x="800" y="0">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+</fastViewData>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="253" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
@@ -21,7 +23,7 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1494341842695" focus="true" label="Workspace - Java">
+<page aggregateWorkingSetId="Aggregate for window 1494859447116" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -34,31 +36,17 @@
 </folder>
 </info>
 </editorArea>
-<<<<<<< HEAD
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" partName="Game.java" path="H:/Comp Sci Final Project/Snek/src/Game.java" title="Game.java" tooltip="Snek/src/Game.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snek/src/Game.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="558"/>
-=======
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" partName="Game.java" path="C:/Users/217867/Desktop/Comp-Sci-Final-Project/Snek/src/Game.java" title="Game.java" tooltip="Snek/src/Game.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snek/src/Game.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="1027"/>
->>>>>>> origin/master
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlaySnek.java" partName="PlaySnek.java" path="C:/Users/217867/Desktop/Comp-Sci-Final-Project/Snek/src/PlaySnek.java" title="PlaySnek.java" tooltip="Snek/src/PlaySnek.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlaySnek.java" partName="PlaySnek.java" path="H:/Comp Sci Final Project/Snek/src/PlaySnek.java" title="PlaySnek.java" tooltip="Snek/src/PlaySnek.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snek/src/PlaySnek.java"/>
-<<<<<<< HEAD
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="352"/>
+<editorState selectionHPixel="0" selectionLength="59" selectionOffset="305"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snek.java" partName="Snek.java" path="H:/Comp Sci Final Project/Snek/src/Snek.java" title="Snek.java" tooltip="Snek/src/Snek.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snek/src/Snek.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="281"/>
-=======
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="403"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="168"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snek.java" partName="Snek.java" path="C:/Users/217867/Desktop/Comp-Sci-Final-Project/Snek/src/Snek.java" title="Snek.java" tooltip="Snek/src/Snek.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snek/src/Snek.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="569"/>
->>>>>>> origin/master
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" partName="Game.java" path="H:/Comp Sci Final Project/Snek/src/Game.java" title="Game.java" tooltip="Snek/src/Game.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snek/src/Game.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="137"/>
 </editor>
 </editors>
 <views>
@@ -71,6 +59,9 @@
 <columnOrder columnOrderIndex="3"/>
 <columnOrder columnOrderIndex="4"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" isWindowWorkingSet="true" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -102,8 +93,12 @@
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
@@ -155,11 +150,17 @@
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
-<view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<fastViewBars/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.views.ProblemView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
@@ -174,35 +175,37 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@5f2094" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.13089994" ratioLeft="208" ratioRight="1381" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7492877" ratioLeft="526" ratioRight="176" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.77403843" ratioLeft="483" ratioRight="141" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@19baf0e" ratio="0.79615384" ratioLeft="414" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b61489" ratio="0.79615384" ratioLeft="414" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1d093a9" ratio="0.7562327" ratioLeft="546" ratioRight="176" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
 <part id="0"/>
 </presentation>
@@ -215,308 +218,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snek/src/Snek.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snek/src/Game.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snek/src/PlaySnek.java"/>
-<<<<<<< HEAD
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snek/src/Snek.java"/>
 </editors>
-<item historyLabel="Game.java" index="1">
+<item historyLabel="Game.java" index="0">
 <position/>
 </item>
-<item historyLabel="Game.java" index="1">
+<item historyLabel="Game.java" index="0">
 <position/>
 </item>
-<item historyLabel="Game.java" index="1">
+<item historyLabel="Game.java" index="0">
 <position/>
 </item>
-<item historyLabel="Snek.java" index="0">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
+<item historyLabel="Game.java" index="0">
 <position/>
 </item>
-<item historyLabel="PlaySnek.java" index="2">
-<position info="not_deleted" x="212" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="1290" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="0">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="1290" y="0"/>
-=======
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snek/src/Game.java"/>
-</editors>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="622" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="0">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="622" y="0"/>
-</item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="787" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="622" y="0"/>
-</item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="184" y="0"/>
->>>>>>> origin/master
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="704" y="0"/>
-</item>
-<<<<<<< HEAD
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="1290" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="694" y="8"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="163" y="4"/>
-=======
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="184" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="0">
-<position info="not_deleted" x="338" y="14"/>
-</item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="270" y="1"/>
->>>>>>> origin/master
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="1286" y="0"/>
-</item>
-<<<<<<< HEAD
-<item historyLabel="Snek.java" index="0">
-<position info="not_deleted" x="125" y="0"/>
-=======
-<item historyLabel="PlaySnek.java" index="0">
-<position info="not_deleted" x="349" y="0"/>
->>>>>>> origin/master
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="1286" y="0"/>
-</item>
-<<<<<<< HEAD
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="973" y="0"/>
-=======
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="270" y="1"/>
->>>>>>> origin/master
-</item>
-<item historyLabel="Game.java" index="1">
-<position/>
-</item>
-<<<<<<< HEAD
-<item historyLabel="Snek.java" index="0">
-<position info="not_deleted" x="125" y="0"/>
-=======
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="270" y="1"/>
->>>>>>> origin/master
-</item>
-<item historyLabel="Game.java" index="1">
-<position/>
-</item>
-<<<<<<< HEAD
-<item historyLabel="Snek.java" index="0">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="0">
-<position info="not_deleted" x="122" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="881" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="998" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="1111" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="1228" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="735" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="791" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="758" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="771" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="791" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="0">
-<position info="not_deleted" x="281" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="1179" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="2">
-<position info="not_deleted" x="212" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="118" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="2">
-<position info="not_deleted" x="107" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="0">
-<position info="not_deleted" x="281" y="0"/>
-</item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="118" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="2">
+<item historyLabel="Game.java" index="0">
 <position info="not_deleted" x="366" y="0"/>
 </item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="118" y="0"/>
+<item historyLabel="PlaySnek.java" index="1">
+<position info="not_deleted" x="307" y="0"/>
 </item>
-<item historyLabel="PlaySnek.java" index="2">
-<position info="not_deleted" x="366" y="0"/>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1846" y="0"/>
 </item>
-<item historyLabel="PlaySnek.java" index="2">
-<position info="not_deleted" x="374" y="0"/>
+<item historyLabel="PlaySnek.java" index="1">
+<position info="not_deleted" x="307" y="0"/>
 </item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="118" y="0"/>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1846" y="0"/>
 </item>
-<item historyLabel="Snek.java" index="0">
-<position info="not_deleted" x="281" y="0"/>
+<item historyLabel="PlaySnek.java" index="1">
+<position info="not_deleted" x="303" y="0"/>
 </item>
-<item historyLabel="PlaySnek.java" index="2">
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1846" y="0"/>
+</item>
+<item historyLabel="PlaySnek.java" index="1">
+<position info="not_deleted" x="303" y="0"/>
+</item>
+<item historyLabel="PlaySnek.java" index="1">
 <position/>
 </item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="118" y="0"/>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="213" y="22"/>
 </item>
-<item historyLabel="PlaySnek.java" index="2">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="PlaySnek.java" index="1">
+<position info="not_deleted" x="81" y="8"/>
 </item>
-<item historyLabel="Snek.java" index="0">
-<position info="not_deleted" x="281" y="0"/>
-</item>
-<item active="true" historyLabel="Game.java" index="1">
-<position info="not_deleted" x="118" y="0"/>
-=======
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="270" y="1"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="231" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="0">
-<position info="not_deleted" x="349" y="0"/>
-</item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="1046" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="422" y="0"/>
-</item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="1046" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="422" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="0">
-<position info="not_deleted" x="301" y="0"/>
-</item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="1046" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="422" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="3">
+<item historyLabel="PlaySnek.java" index="1">
 <position/>
 </item>
-<item historyLabel="Game.java" index="4">
+<item historyLabel="PlaySnek.java" index="1">
 <position/>
 </item>
-<item historyLabel="PlaySnek.java" index="3">
-<position info="not_deleted" x="403" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="106" y="0"/>
-</item>
-<item historyLabel="Game.java" index="4">
-<position info="not_deleted" x="272" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="3">
-<position info="not_deleted" x="403" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="106" y="0"/>
-</item>
-<item historyLabel="Game.java" index="4">
-<position info="not_deleted" x="272" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="106" y="0"/>
-</item>
-<item historyLabel="Game.java" index="4">
-<position info="not_deleted" x="272" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="106" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
+<item historyLabel="PlaySnek.java" index="1">
 <position/>
 </item>
-<item historyLabel="Snek.java" index="1">
+<item historyLabel="PlaySnek.java" index="1">
+<position info="not_deleted" x="399" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="213" y="22"/>
+</item>
+<item historyLabel="PlaySnek.java" index="1">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="213" y="22"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="502" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
 <position/>
 </item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="517" y="0"/>
-</item>
-<item historyLabel="Game.java" index="4">
-<position info="not_deleted" x="272" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="517" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="1">
+<item historyLabel="Game.java" index="0">
 <position/>
 </item>
-<item historyLabel="Snek.java" index="1">
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="470" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="Snek.java" index="2">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="PlaySnek.java" index="1">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="238" y="0"/>
+</item>
+<item historyLabel="PlaySnek.java" index="1">
 <position/>
 </item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="492" y="0"/>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="238" y="0"/>
 </item>
-<item historyLabel="Game.java" index="4">
-<position info="not_deleted" x="272" y="0"/>
+<item historyLabel="Game.java" index="0">
+<position/>
 </item>
-<item historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="569" y="0"/>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1782" y="0"/>
 </item>
-<item historyLabel="Game.java" index="4">
-<position info="not_deleted" x="1027" y="0"/>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="312" y="0"/>
 </item>
-<item active="true" historyLabel="Snek.java" index="1">
-<position info="not_deleted" x="569" y="0"/>
->>>>>>> origin/master
+<item historyLabel="Snek.java" index="2">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="PlaySnek.java" index="1">
+<position/>
+</item>
+<item historyLabel="Snek.java" index="2">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="342" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="545" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1778" y="0"/>
+</item>
+<item historyLabel="Snek.java" index="2">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="PlaySnek.java" index="1">
+<position/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1778" y="0"/>
+</item>
+<item historyLabel="Snek.java" index="2">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="PlaySnek.java" index="1">
+<position info="not_deleted" x="305" y="59"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1778" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="806" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="807" y="0"/>
+</item>
+<item active="true" historyLabel="Game.java" index="0">
+<position info="not_deleted" x="848" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -531,10 +385,14 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" tooltip="Snek/src/Game.java">
+<persistable path="/Snek/src/Game.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snek.java" tooltip="Snek/src/Snek.java">
 <persistable path="/Snek/src/Snek.java"/>
 </file>
