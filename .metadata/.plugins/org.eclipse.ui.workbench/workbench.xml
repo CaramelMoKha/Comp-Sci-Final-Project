@@ -29,24 +29,19 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="0"/>
-<part id="2"/>
 <part id="1"/>
+<part id="0"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlaySnek.java" partName="PlaySnek.java" path="C:/Users/217867/Desktop/Comp-Sci-Final-Project/Snek/src/PlaySnek.java" title="PlaySnek.java" tooltip="Snek/src/PlaySnek.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snek/src/PlaySnek.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
-</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snek.java" partName="Snek.java" path="C:/Users/217867/Desktop/Comp-Sci-Final-Project/Snek/src/Snek.java" title="Snek.java" tooltip="Snek/src/Snek.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snek/src/Snek.java"/>
 <editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" partName="Game.java" path="C:/Users/217867/Desktop/Comp-Sci-Final-Project/Snek/src/Game.java" title="Game.java" tooltip="Snek/src/Game.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snek/src/Game.java"/>
-<editorState selectionHPixel="0" selectionLength="0" selectionOffset="835"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="2408"/>
 </editor>
 </editors>
 <views>
@@ -223,73 +218,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snek/src/Snek.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snek/src/PlaySnek.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snek/src/Snek.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snek/src/Snek.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Snek/src/PlaySnek.java"/>
 </editors>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="1846" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="1">
-<position info="not_deleted" x="303" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="1">
-<position/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="213" y="22"/>
-</item>
-<item historyLabel="PlaySnek.java" index="1">
-<position info="not_deleted" x="81" y="8"/>
-</item>
-<item historyLabel="PlaySnek.java" index="1">
-<position/>
-</item>
-<item historyLabel="PlaySnek.java" index="1">
-<position/>
-</item>
-<item historyLabel="PlaySnek.java" index="1">
-<position/>
-</item>
-<item historyLabel="PlaySnek.java" index="1">
-<position info="not_deleted" x="399" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="213" y="22"/>
-</item>
-<item historyLabel="PlaySnek.java" index="1">
-<position info="not_deleted" x="330" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="213" y="22"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="502" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="470" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="835" y="0"/>
-</item>
-<item historyLabel="Snek.java" index="2">
-<position info="not_deleted" x="168" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="1">
-<position info="not_deleted" x="330" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="238" y="0"/>
-</item>
-<item historyLabel="PlaySnek.java" index="1">
-<position/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="238" y="0"/>
-</item>
 <item historyLabel="Game.java" index="0">
 <position/>
 </item>
@@ -371,8 +302,74 @@
 <item historyLabel="Snek.java" index="4">
 <position/>
 </item>
-<item active="true" historyLabel="Game.java" index="0">
+<item historyLabel="Game.java" index="0">
 <position info="not_deleted" x="437" y="0"/>
+</item>
+<item historyLabel="Snek.java" index="5">
+<position/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="942" y="0"/>
+</item>
+<item historyLabel="PlaySnek.java" index="6">
+<position/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1036" y="0"/>
+</item>
+<item historyLabel="Snek.java" index="5">
+<position/>
+</item>
+<item historyLabel="PlaySnek.java" index="6">
+<position/>
+</item>
+<item historyLabel="Snek.java" index="5">
+<position/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="2615" y="0"/>
+</item>
+<item historyLabel="Snek.java" index="5">
+<position/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="2615" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1884" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="2455" y="0"/>
+</item>
+<item historyLabel="Snek.java" index="5">
+<position/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="2455" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1882" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="1884" y="0"/>
+</item>
+<item historyLabel="Game.java" index="0">
+<position info="not_deleted" x="2272" y="0"/>
+</item>
+<item historyLabel="Snek.java" index="5">
+<position/>
+</item>
+<item active="true" historyLabel="Game.java" index="0">
+<position info="not_deleted" x="2272" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
