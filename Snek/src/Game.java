@@ -2,6 +2,9 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.util.Date;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -10,9 +13,11 @@ public class Game extends JPanel
 {
 	private static final long serialVersionUID = 1L;
 	
-	private long score;
+	private static long score;
 	private static Color[][] screen;
 	private static Snek snek = new Snek(20, 20);
+	private static int goodBlockX = (int)(Math.random() * 29) + 3;
+	private static int goodBlockY = (int)(Math.random() * 29) + 3;
 	
 	public Game()
 	{
@@ -64,6 +69,8 @@ public class Game extends JPanel
 		
 		final Game game = new Game();
 		game.screen();
+		long startTime = System.currentTimeMillis();
+		screen[goodBlockX][goodBlockY] = Color.GREEN;
 		
 		f.addKeyListener(new KeyListener()
 		{
@@ -78,8 +85,27 @@ public class Game extends JPanel
 					screen[snek.getX()][snek.getY()] = Color.BLACK;
 					snek.moveRight();
 					screen[snek.getX()][snek.getY()] = Color.BLUE;
-					game.repaint();
-					game.screen();
+					if(snek.getX() == goodBlockX && snek.getY() == goodBlockY)
+					{
+						score ++;
+						game.repaint();
+						game.screen();
+						goodBlockX = (int)(Math.random() * 29) + 3;
+						goodBlockY = (int)(Math.random() * 29) + 3;
+						if(goodBlockX == snek.getX() && goodBlockY == snek.getY())
+						{
+							goodBlockX ++;
+							goodBlockY ++;
+							screen[goodBlockX][goodBlockY] = Color.GREEN;
+						}
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
+					else
+					{
+						game.repaint();
+						game.screen();
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
 				}
 				
 				if(key == KeyEvent.VK_LEFT)
@@ -87,8 +113,28 @@ public class Game extends JPanel
 					screen[snek.getX()][snek.getY()] = Color.BLACK;
 					snek.moveLeft();
 					screen[snek.getX()][snek.getY()] = Color.BLUE;
-					game.repaint();
-					game.screen();
+					if(snek.getX() == goodBlockX && snek.getY() == goodBlockY)
+					{
+						score ++;
+						game.repaint();
+						game.screen();
+						goodBlockX = (int)(Math.random() * 29) + 3;
+						goodBlockY = (int)(Math.random() * 29) + 3;
+						if(goodBlockX == snek.getX() && goodBlockY == snek.getY())
+						{
+							goodBlockX ++;
+							goodBlockY ++;
+							screen[goodBlockX][goodBlockY] = Color.GREEN;
+						}
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
+					else
+					{
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+						game.repaint();
+						game.screen();
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
 				}
 				
 				if(key == KeyEvent.VK_UP)
@@ -96,8 +142,28 @@ public class Game extends JPanel
 					screen[snek.getX()][snek.getY()] = Color.BLACK;
 					snek.moveDown();
 					screen[snek.getX()][snek.getY()] = Color.BLUE;
-					game.repaint();
-					game.screen();
+					if(snek.getX() == goodBlockX && snek.getY() == goodBlockY)
+					{
+						score ++;
+						game.repaint();
+						game.screen();
+						goodBlockX = (int)(Math.random() * 29) + 3;
+						goodBlockY = (int)(Math.random() * 29) + 3;
+						if(goodBlockX == snek.getX() && goodBlockY == snek.getY())
+						{
+							goodBlockX ++;
+							goodBlockY ++;
+							screen[goodBlockX][goodBlockY] = Color.GREEN;
+						}
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
+					else
+					{
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+						game.repaint();
+						game.screen();
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
 				}
 				
 				if(key == KeyEvent.VK_DOWN)
@@ -105,8 +171,28 @@ public class Game extends JPanel
 					screen[snek.getX()][snek.getY()] = Color.BLACK;
 					snek.moveUp();
 					screen[snek.getX()][snek.getY()] = Color.BLUE;
-					game.repaint();
-					game.screen();
+					if(snek.getX() == goodBlockX && snek.getY() == goodBlockY)
+					{
+						score ++;
+						game.repaint();
+						game.screen();
+						goodBlockX = (int)(Math.random() * 29) + 3;
+						goodBlockY = (int)(Math.random() * 29) + 3;
+						if(goodBlockX == snek.getX() && goodBlockY == snek.getY())
+						{
+							goodBlockX ++;
+							goodBlockY ++;
+							screen[goodBlockX][goodBlockY] = Color.GREEN;
+						}
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
+					else
+					{
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+						game.repaint();
+						game.screen();
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
 				}
 			}
 		});

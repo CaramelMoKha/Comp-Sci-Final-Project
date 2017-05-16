@@ -1,0 +1,179 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Game extends JPanel
+{
+	private static final long serialVersionUID = 1L;
+	
+	private static long score;
+	private static Color[][] screen;
+	private static Snek snek = new Snek(20, 20);
+	private static int goodBlockX = (int)(Math.random() * 29) + 3;
+	private static int goodBlockY = (int)(Math.random() * 29) + 3;
+	
+	
+	public Game()
+	{
+		this.setFocusable(true);
+		this.requestFocusInWindow();
+	}
+	
+	// Creates a border around the screen
+	public void screen() 
+	{
+		screen = new Color[40][40];
+		for (int i = 0; i < 40; i++) 
+		{ 
+			for (int j = 0; j < 39; j++) 
+			{
+				if (i == 0 || i == 39 || j == 38) 
+					screen[i][j] = new Color(255, 0, 0).darker();
+				else 
+					screen[i][j] = Color.BLACK;
+			}
+		}
+		screen[snek.getX()][snek.getY()] = Color.BLUE;
+	}
+	
+	public void paintComponent(Graphics g)
+	{
+		// Paint the screen
+		g.fillRect(0, 0, 26*40, 26*39);
+		for (int i = 0; i < 40; i++) 
+		{
+			for (int j = 0; j < 39; j++) 
+			{
+				g.setColor(screen[i][j]);
+				g.fillRect(26*i, 26*j, 25, 25);
+			}
+		}
+		
+		// Display the score
+		g.setColor(Color.WHITE);
+		g.drawString("" + score, 30, 25);
+	}
+	
+	public static void main(String[] args)
+	{
+		JFrame f = new JFrame("Snek");
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		f.setSize(40*26+10, 26*39+25);
+		f.setVisible(true);
+		
+		final Game game = new Game();
+		game.screen();
+		screen[goodBlockX][goodBlockY] = Color.GREEN;
+		
+		f.addKeyListener(new KeyListener()
+		{
+			public void keyTyped(KeyEvent e){}
+			public void keyReleased(KeyEvent e){}
+			public void keyPressed(KeyEvent e)
+			{
+				int key = e.getKeyCode();
+				
+				if(key == KeyEvent.VK_RIGHT)
+				{
+					screen[snek.getX()][snek.getY()] = Color.BLACK;
+					snek.moveRight();
+					screen[snek.getX()][snek.getY()] = Color.BLUE;
+					if(snek.getX() == goodBlockX && snek.getY() == goodBlockY)
+					{
+						score ++;
+						game.repaint();
+						game.screen();
+						goodBlockX = (int)(Math.random() * 29) + 3;
+						goodBlockY = (int)(Math.random() * 29) + 3;
+						if(goodBlockX == snek.getX() && goodBlockY == snek.getY())
+						{
+							goodBlockX ++;
+							goodBlockY ++;
+							screen[goodBlockX][goodBlockY] = Color.GREEN;
+						}
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
+					game.repaint();
+					game.screen();
+				}
+				
+				if(key == KeyEvent.VK_LEFT)
+				{
+					screen[snek.getX()][snek.getY()] = Color.BLACK;
+					snek.moveLeft();
+					screen[snek.getX()][snek.getY()] = Color.BLUE;
+					if(snek.getX() == goodBlockX && snek.getY() == goodBlockY)
+					{
+						score ++;
+						game.repaint();
+						game.screen();
+						goodBlockX = (int)(Math.random() * 29) + 3;
+						goodBlockY = (int)(Math.random() * 29) + 3;
+						if(goodBlockX == snek.getX() && goodBlockY == snek.getY())
+						{
+							goodBlockX ++;
+							goodBlockY ++;
+							screen[goodBlockX][goodBlockY] = Color.GREEN;
+						}
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
+					game.repaint();
+					game.screen();
+				}
+				
+				if(key == KeyEvent.VK_UP)
+				{
+					screen[snek.getX()][snek.getY()] = Color.BLACK;
+					snek.moveDown();
+					screen[snek.getX()][snek.getY()] = Color.BLUE;
+					if(snek.getX() == goodBlockX && snek.getY() == goodBlockY)
+					{
+						score ++;
+						game.repaint();
+						game.screen();
+						goodBlockX = (int)(Math.random() * 29) + 3;
+						goodBlockY = (int)(Math.random() * 29) + 3;
+						if(goodBlockX == snek.getX() && goodBlockY == snek.getY())
+						{
+							goodBlockX ++;
+							goodBlockY ++;
+							screen[goodBlockX][goodBlockY] = Color.GREEN;
+						}
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
+					game.repaint();
+					game.screen();
+				}
+				
+				if(key == KeyEvent.VK_DOWN)
+				{
+					screen[snek.getX()][snek.getY()] = Color.BLACK;
+					snek.moveUp();
+					screen[snek.getX()][snek.getY()] = Color.BLUE;
+					if(snek.getX() == goodBlockX && snek.getY() == goodBlockY)
+					{
+						score ++;
+						game.repaint();
+						game.screen();
+						goodBlockX = (int)(Math.random() * 29) + 3;
+						goodBlockY = (int)(Math.random() * 29) + 3;
+						if(goodBlockX == snek.getX() && goodBlockY == snek.getY())
+						{
+							goodBlockX ++;
+							goodBlockY ++;
+							screen[goodBlockX][goodBlockY] = Color.GREEN;
+						}
+						screen[goodBlockX][goodBlockY] = Color.GREEN;
+					}
+					game.repaint();
+					game.screen();
+				}
+			}
+		});
+		f.add(game);
+	}
+}
